@@ -43,6 +43,6 @@ module.exports = {
                 axios: 'axios'
             }
         ]);
-        config.plugin('workbox');
+        // config.plugin('workbox');
     }
 };
