@@ -1,0 +1,114 @@
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow: #FEC171;
+$panGreen: #30B08F;
+$textRed: #EB1D1D;
+
+// 表格
+$tableColor: #606266;
+$tableHeaderColor: #909399;
+$tableHeaderBgColor: #F9FBFD;
+$tableBorderColor: #EBEEF5;
+$tableHoverBgColor: #F5F7FA;
+
+$headerBg: #FEFEFE;
+$titleColor: #2C2C2C;
+
+// 側邊欄
+$navBg: #E6E6E6;
+$navTitleColor: #FFF;
+$navItemBorder: #CECECE;
+$navItemBg: #3C77A1;
+$navItemActiveBg: #31AAC5;
+$navSubItemColor: #3A3A3A;
+$navSubItemActiveColor: #CC6600;
+
+// 下拉選單
+$selectorColor: #CC6600;
+$selectorActiveColor: #FFF;
+$selectorBg: #FFF;
+$selectorActiveBg: #1A78BC;
+$selectorBorder: #CCC;
+
+// 頁面標題
+$pageTitleColor: #D4883D;
+
+$contentBg: #F4F4F4;
+
+$dataTableHeaderBg: #8B8B8B;
+$dataTableHeaderColor: #FFF;
+$dataTableBodyBorder: #D5D5D5;
+$dataTableBodyHoverBg: #8DDBB9;
+
+$linkTextColor: #358CC9;
+
+$moduleListItemBg: #FFF;
+$moduleListItemName: #358CC9;
+$moduleSettingItemName: #358CC9;
+$moduleResourceTabBg: #8B8B8B;
+$moduleResourceTabText: #FFF;
+$moduleResourceTabBorder: #FFF;
+$moduleResourceTabActiveBg: #EEB139;
+$moduleResourceTabContentBg: #FFF;
+$moduleResourceConfigTitle: #CC6600;
+
+$commonBorder: #CECECE;
+$commonTextColor: #404040;
+$fallbackText: #EB1D1D;
+
+$dialogBg: #E6E6E6;
+$dialogHeaderBg: #3C77A1;
+$dialogTitleText: #FFF5E2;
+$dialogInputBg: #F7F7F7;
+
+$messageBoxBg: #E6E6E6;
+$messageBoxHeaderBg: #3C77A1;
+$messageBoxTitleText: #FFF5E2;
+
+$loginBg: #3C3F47;
+$loginTitle: #FFF5E2;
+$loginWrapBg: #E6E6E6;
+$loginHeaderBgUser: #3C77A1;
+$loginHeaderBgReview: #EEB139;
+
+$inputPrefixBg: #8B8B8B;
+$inputPrefixText: #D8D8D8;
+
+$radioActive: #32A586;
+
+// Base colors
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+// Sidebar
+$sideBarWidth: 200px;
+$subMenuBg:#1d2733;
+$subMenuHover:#001528;
+$subMenuActiveText:#f4f4f5;
+$menuBg:#304156;
+$menuText:#bfcbd9;
+$menuActiveText:#5fafff; // Also see settings.sidebarTextTheme
+
+$tpl-header: calc(100% - #{$sideBarWidth});
+
+// Login page
+$lightGray: #eee;
+$darkGray:#889aa4;
+$loginBg: #2d3a4b;
+$loginCursorColor: #fff;
+
+:export {
+    menuBg: $menuBg;
+    menuText: $menuText;
+    menuActiveText: $menuActiveText;
+}

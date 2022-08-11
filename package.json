@@ -1,0 +1,54 @@
+{
+  "name": "basara",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "./serve.sh",
+    "build": "./build.sh",
+    "lint": "vue-cli-service lint",
+    "start": "node dist/app.js"
+  },
+  "engines": {
+      "node": "12"
+  },
+  "dependencies": {
+    "4": "^0.0.0",
+    "@types/ramda": "^0.27.39",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "detect-browser": "^5.2.0",
+    "express": "^4.18.1",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "ramda": "^0.27.1",
+    "register-service-worker": "^1.7.1",
+    "vue": "^2.6.11",
+    "vue-awesome": "^4.1.0",
+    "vue-axios": "^3.2.4",
+    "vue-class-component": "^7.2.3",
+    "vue-justified-layout": "^0.2.0",
+    "vue-masonry": "^0.12.0",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "^3.2.0",
+    "vuesax": "^4.0.1-alpha.25",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "@vue/cli-plugin-typescript": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-pwa": "^4.6.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
